@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 # Trading Configuration
-SYMBOL = "XRPUSD"  # Changed to available symbol
+SYMBOL = "XAUUSD."  # Changed to available symbol
 TIMEFRAME = "M15"  # 1-hour timeframe
 START_DATE = datetime(2024, 1, 1)
 END_DATE = datetime(2025, 12, 31)

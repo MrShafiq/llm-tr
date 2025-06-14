@@ -211,10 +211,10 @@ def main():
     set_mt5_env()
     
     # Schedule training
-    # schedule.every(TRAINING_INTERVAL_DAYS).days.at("00:00").do(train_model)
+    schedule.every(TRAINING_INTERVAL_DAYS).days.at("00:00").do(train_model)
     
     # Run initial training
-    # train_model()
+    train_model()
     
     # Main loop
     while True:
